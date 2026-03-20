@@ -120,7 +120,7 @@ Know a source that's reliable and worth including? Open a ticket and we'll take 
 
 Witch Doctor is not a replacement for professional help. The information here is carefully sourced and maintained but TBC8, the person behind this project, is not a doctor — and neither is a chatbot.
 
-This project does not encourage any of the behaviors it covers. In fact where safer alternatives exist we'll always point you toward them. If you're pursuing DIY HRT we encourage you to go through a doctor if at all possible, or if that's not an option where you live, to consider moving somewhere it is. Witch Doctor exists because we know that's not always possible and people deserve good information regardless.
+This project does not encourage any of the behaviors it covers. In fact, where safer alternatives exist we'll always point you towards them. If you're pursuing DIY HRT we encourage you to go through a doctor if at all possible, or if that's not an option where you live, to consider moving somewhere it is. Witch Doctor exists because we know that's not always possible and people deserve good information regardless.
 
 For recreational drug use we don't encourage anyone to use drugs, especially if you're dealing with mental health issues — the risks are real and we'll always be upfront about them.
 
