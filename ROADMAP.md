@@ -2,7 +2,7 @@
 
 ## Current Status
 
-As of right now Witch Doctor is in the very early stages — the GitHub is live but no code has been written yet. That changes soon. The plan is to start with building out the databases, get the RAG pipeline set up, then bring everything together into a working tool.
+Witch Doctor is in active early development. The repository structure is in place — folders for the bot, RAG pipeline, scrapers, data, cleaner, tracker, and vision system have all been set up. No functional code has been written yet. The next step is building out the databases.
 
 If you want to get involved from the ground floor this is the time.
 
@@ -18,13 +18,16 @@ Building out the three core datasets: drugs & interactions, DIY HRT, and overdos
 **Step 2 — The RAG Pipeline**
 Setting up the system that lets the AI actually use the data — connecting the databases to the model so it can pull the right information and give accurate answers.
 
-**Step 3 — OpenWebUI**
+**Step 3 — Visual Identification**
+Adding image recognition so users can send a photo of an unknown pill, capsule, or substance and get back an identification along with relevant harm reduction information. This is handled by a dedicated vision pipeline separate from the main chat system.
+
+**Step 4 — OpenWebUI**
 Plugging everything into OpenWebUI so there's a clean interface people can actually talk to.
 
-**Step 4 — Discord Bot**
+**Step 5 — Discord Bot**
 Bringing Witch Doctor to Discord with a public invite link so anyone can access it without any setup at all.
 
-**Step 5 — Polish**
+**Step 6 — Polish**
 Testing, fixing, and making sure everything works the way it should. When this step is done v1 is live.
 
 ---
@@ -131,9 +134,9 @@ SHAMAN will be fine tuned on all of Witch Doctor's data making it faster, more a
 
 To fine tune SHAMAN we need real conversational data. Here's how you can help if you want to:
 
-- **Donate your chat logs** — if you've used Witch Doctor and are willing to share your conversation logs for training purposes you can submit them as an issue or pull request. This is entirely voluntary, no pressure whatsoever.
-- **Help prep the data** — if you know how to prepare and format chat logs for fine tuning your help would be hugely valuable. Jump in on the fine tuning issue when it opens.
-- **Don't worry if you can't help** — if no logs are donated or there aren't enough we'll generate synthetic ones. Real logs help but they're not required.
+* **Donate your chat logs** — if you've used Witch Doctor and are willing to share your conversation logs for training purposes you can submit them as an issue or pull request. This is entirely voluntary, no pressure whatsoever.
+* **Help prep the data** — if you know how to prepare and format chat logs for fine tuning your help would be hugely valuable. Jump in on the fine tuning issue when it opens.
+* **Don't worry if you can't help** — if no logs are donated or there aren't enough we'll generate synthetic ones. Real logs help but they're not required.
 
 SHAMAN is a long way off — Witch Doctor needs to be mature and well tested before fine tuning begins. But it's where all of this is heading.
 
